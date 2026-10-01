@@ -1,0 +1,28 @@
+# Nmap 7.991 scan initiated Thu Oct  1 20:11:46 2026 as: nmap -sS -oN Task-1-Network-Port-Scanning/reports/lan-syn-scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0074s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 5C:64:8E:D3:E2:67 (Zyxel Communications)
+
+Nmap scan report for 192.168.1.2 (192.168.1.2)
+Host is up (0.0088s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 86:B4:A8:47:FC:B0 (Unknown)
+
+Nmap scan report for 192.168.1.8 (192.168.1.8)
+Host is up (0.0000090s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+# Nmap done at Thu Oct  1 20:12:09 2026 -- 256 IP addresses (3 hosts up) scanned in 22.78 seconds
